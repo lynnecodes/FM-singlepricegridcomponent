@@ -103,6 +103,21 @@ body {
 }
 
 
+@media only screen and (max-width: 375px) {
+    .bottom-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom-left {
+        border-radius: 0;
+    }
+
+    .bottom-right {
+        border-bottom-left-radius: 10px;
+    }
+}
+
 .attribution { font-size: 11px; text-align: center; }
 
 .attribution a { color: hsl(228, 45%, 44%); }
