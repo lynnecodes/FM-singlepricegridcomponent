@@ -19,19 +19,24 @@ body {
 }
 
 .top-info {
-    padding: 20px;
-}
-
-.top-info h1 {
-    color: hsl(179, 62%, 43%);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
 
 .top-info h2 {
+    color: hsl(179, 62%, 43%);
+}
+
+.top-info h3 {
     color: hsl(71, 73%, 54%);
 }
 
 .top-info p {
     color: hsl(218, 22%, 67%);
+    padding: 4px;
+    margin: 0;
 }
 
 .bottom-info {
@@ -45,8 +50,9 @@ body {
     padding: 10px;
     border-bottom-left-radius: 10px;
     padding-bottom: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
 }
 
 .bottom-left h1 {
@@ -79,7 +85,7 @@ body {
     height: 50px;
     border-radius: 5px;
     border: none;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .bottom-left button:hover {
@@ -90,14 +96,14 @@ body {
 .bottom-right {
     background: hsl(180, 47%, 63%);
     color: hsl(204, 43%, 93%);
-    padding: 10px;
     border-bottom-right-radius: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
 }
 
 .bottom-right p {
-    padding: 2px;
+    padding: 1px;
     margin: 0;
     color: hsla(203, 44%, 93%, 0.68);
 }
